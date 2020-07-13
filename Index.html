@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Css/bootstrap.css" rel="stylesheet" />
+    <link href="Css/fiveNumbers.css" rel="stylesheet" />
+    <title>Five Numbers</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row h1 text-center">
+            <div class="col-12">ENTER FIVE NUMBERS</div>
+        </div>
+
+        <div class="row">
+            <div class="col-10 offset-1">               
+                <h3 class="spaceAbove">Numbers</h3>
+                <div class="row spaceBelow">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First Number" id="firstNumber">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Second Number" id="secondNumber">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Third Number" id="thirdNumber">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Fourth Number" id="fourthNumber">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Fifth Number" id="fifthNumber">
+                    </div>
+                </div>           
+                                   
+                <h3>Results</h3>
+                <div class="row spaceBelow">
+                    <div class="col">
+                        <input type="text" id="least" class="form-control" readonly>
+                        <p>Least</p>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="greatest" class="form-control" readonly>
+                        <p>Greatest</p>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="mean" class="form-control" readonly>
+                        <p>Mean</p>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="sum" class="form-control" readonly>
+                        <p>Sum</p>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="product" class="form-control" readonly>
+                        <p>Product</p>
+                    </div>
+                </div>
+                    
+
+                <h2 id="errorAlert">You entered an invalid number.</h2>
+                <button id="errorAlertButton" class="btn btn-warning btnSubmitClearAlert">Reset</button>                    
+                <button type="submit" id="submitButton" class="btn btn-primary btnSubmitClearAlert">Submit</button>                   
+                <button type="submit" id="clearButton" class="btn btn-success btnSubmitClearAlert">Clear</button>          
+                
+                
+            </div>
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <script src="Scripts/jquery-3.5.1.min.js"></script>    
+    <script src="Scripts/fiveNumbers.js"></script>
+    
+
+</body>
+</html>

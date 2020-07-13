@@ -1,0 +1,45 @@
+﻿*{
+    font-family: Garamond, sans-serif;
+}
+
+body{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+p{
+    font-size: 18px;
+}
+
+.btnSubmitClearAlert{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.spaceAbove{
+    margin-top: 5%;
+}
+.spaceBelow{
+   margin-bottom: 8%;
+}
+
+.formGroupResults{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+button{
+    width: 15%;
+    margin-right: 2%;
+}
+
+#errorAlert{
+    font-weight: bold;
+    color: red;
+}
+
+#goLink{
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 2%;
+}
